@@ -1,0 +1,56 @@
+{
+  "name": "justo-loader",
+  "version": "0.2.0",
+  "description": "File loader.",
+  "homepage": "http://www.justojs.org",
+  "license": "MIT",
+  "author": {
+    "name": "The Justo.js Development Group",
+    "email": "justojs.org@outlook.com",
+    "url": "http://www.justojs.org"
+  },
+  "contributors": [
+    {
+      "name": "Raúl G. González",
+      "email": "raulggonzalezsw@outlook.com",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "Justo",
+    "Justo.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/justojs/justo-loader/issues",
+    "email": "justojs.org@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justojs/justo-loader.git"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-babel": "^5",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-mocha-test": "*",
+    "grunt-travis-lint": "*",
+    "justo-assert": "*",
+    "mocha": "*"
+  },
+  "preferGlobal": false,
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "grunt test"
+  }
+}
